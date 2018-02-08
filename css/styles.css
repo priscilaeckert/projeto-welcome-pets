@@ -1,0 +1,107 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+nav {
+    box-shadow: 1px 0px 10px black;  
+}
+
+header {
+    background-image: url("../img/bkg1.jpg");
+    background-repeat: no-repeat;
+
+    /* Mostra o centro da imagem */
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 10%;
+}
+
+.form-inline {
+    position: absolute;
+    right: 50%;
+   
+}
+
+
+#conteudo-header {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+header h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+    color: #e3e3e3;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer ul li {
+    padding-right: 1%;
+}
+
+.fixed-top{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-weight: bold;
+   
+}
+
+.card{
+    margin-top: 5%;
+}
+
+#navbarNav {
+    /* Posiciona os botões do navbar na direita */
+    position: absolute;
+    right: 5px;
+}
+
+#imagem {
+    width: 100%;
+}
+
+
+.section-conteudo {
+    padding-top: 8%;
+    padding-bottom: 7%;
+}
+
+.outra-section {
+    
+    background-color: rgb(144, 233, 159);
+}
+
+.section-contato {
+    margin-top: 8%;
+    margin-bottom: 5%;
+ 
+}
+
+
+
+
+/*DISPOSITIVOS COM TELAS MENORES QUE 575px*/
+
+@media (max-width: 575px){
+    header{
+        padding: 25% 0 20% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    header h2{
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
